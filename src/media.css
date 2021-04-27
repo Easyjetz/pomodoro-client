@@ -1,0 +1,18 @@
+
+
+@media (max-width: 376px) {
+    .card-action {
+        padding: 15px !important
+    }
+
+    nav .brand-logo {
+        display: none;
+    }
+
+    nav .right {
+        float: none !important;
+    }
+    .nav-wrapper a{
+        font-size: 18px;
+    }
+}

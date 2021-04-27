@@ -1,0 +1,116 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.btn, .btn:active, .btn:focus {
+    transition: all .3s;
+    color: #ee6e73;
+    background-color: #fff;
+}
+
+.btn-auth:nth-child(2) {
+    margin-left: 20px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.message{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.auth-input {
+    color: #fff;
+    border-bottom: 1px solid #fff !important;
+}
+input[type=password]:not(.browser-default):focus.valid ~ label {
+    color: #fff !important;
+}
+
+input.valid[type=password]:not(.browser-default) {
+    box-shadow: none;
+    border-bottom: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label, input[type=password]:not(.browser-default):focus:not([readonly])+label {
+    color: #fff !important;
+}
+
+.auth-wrapper input:focus {
+    color: #fff;
+}
+
+
+.auth-card-title {
+    padding-bottom: 20px;
+}
+
+.input-field > label {
+    color: #e7dbdb;
+}
+
+.auth-input:focus {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: none !important;
+}
+
+
+.auth-wrapper {
+    max-width: 700px;
+    margin-top: 60px;
+    padding: 15px
+}
+
+.auth-wrapper .card {
+    background-color: #ee6e73;
+}
+
+.navbar-wrapper {
+    display: flex;
+}
+
+.nav-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.timer-wrapper {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ee6e73;
+    margin: 0 auto;
+    margin-top: 120px;
+    color: #fff;
+    font-size: 72px;
+}
+
+.timer-break {
+    background-color: #1ad94f;
+}
+
+.timer-reset {
+    size: 26px
+}
+
+.timer-result {
+    margin-top: 55px;
+}
+
+.timer-reset path {
+    stroke: #fff;
+}
